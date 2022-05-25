@@ -1,7 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Hero, sans-serif;   
 }
-
 
 .container-header {
     display: flex;
@@ -10,12 +15,11 @@ body {
     align-items: center;
     justify-content: space-evenly;
     gap: 32px;
-
 }
 
 .head {
     display: flex;
-    margin-left: 68px;
+    margin-left: 50px;
 }
 
 .container-top {
@@ -25,14 +29,12 @@ body {
     padding: 32px;
     align-items: center;
     justify-content: space-evenly;
-   
 }
 
 .awesome {
     display: flex;
     flex-direction: column;
     width: 400px;
-
 }
 
 .dog {
@@ -41,9 +43,8 @@ body {
     margin-left: 100px;
 }
 
-button {
+.but1 {
     display: flex;
-    
   background: #3882f6;
   border: 1px solid #3882f6;
   color: #e5e7eb;
@@ -54,6 +55,8 @@ button {
   padding: 4px;
   font-size: 18px;
   font-weight: bold;
+  border: 12px;
+  gap: 8px;
 }
 
 .container-mid {
@@ -86,7 +89,7 @@ h1 {
 h2 {
     display: flex;
     justify-content: center;
-    padding: 12px;
+    padding: 38px;
 }
 
 h3 {
@@ -96,8 +99,6 @@ h3 {
     color: #f9faf8;
 }
 
-
-
 .container-quote {
     display: flex;
     background-color: #e5e7eb;
@@ -105,7 +106,8 @@ h3 {
     font-display: #1f2937;
     font-style: italic;
     flex-wrap: wrap;
-
+    padding: 64px;
+    gap: 32px;
 }
 
 .thor {
@@ -118,13 +120,22 @@ h3 {
 .top {
     font-size: 24px;
     color: #e5e7eb;
+    padding-bottom: 32px;
+    padding-top: 16px;
 }
 
 .newbut {
-    border: 8px, 0, #3882f6;
-    background-color: #f8f8fa;
-    color: #3882f6;
-
+    border-style: solid;
+    border-width: 3px;
+    border-color: #e5e7eb;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 10%;
+    justify-content: center;
+    align-content: space-around;
+    padding: 4px;
+    font-size: 18px;
+    width: 150px;
 }
 
 .container-bottom {
@@ -135,6 +146,7 @@ h3 {
     margin: 50px;
     padding: 24px;
     padding-left: 36px;
+    gap: 16px;
 }
 
 h4 {
