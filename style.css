@@ -1,0 +1,142 @@
+body {
+    font-family: Hero, sans-serif;   
+}
+
+
+.container-header {
+    display: flex;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 32px;
+
+}
+
+.head {
+    display: flex;
+    margin-left: 68px;
+}
+
+.container-top {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    padding: 32px;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+
+.awesome {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+
+}
+
+.dog {
+    max-width: 500px;
+    max-height: 200px;
+    margin-left: 100px;
+}
+
+button {
+    display: flex;
+    
+  background: #3882f6;
+  border: 1px solid #3882f6;
+  color: #e5e7eb;
+  width: 130px;
+  border-radius: 10px;
+  justify-content: center;
+  align-content: space-around;
+  padding: 4px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.container-mid {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    flex-direction: row;
+    padding: 32px;
+}
+
+.info {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    padding: 12px;
+}
+
+.text {
+    display: flex;
+    font-size: 24px;
+    flex-wrap: wrap;
+}
+
+h1 {
+    display: flex;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
+
+h3 {
+    display: flex;
+    align-self: flex-start;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+
+
+.container-quote {
+    display: flex;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-display: #1f2937;
+    font-style: italic;
+    flex-wrap: wrap;
+
+}
+
+.thor {
+    display: flex;
+    font-weight: 900;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+
+.top {
+    font-size: 24px;
+    color: #e5e7eb;
+}
+
+.newbut {
+    border: 8px, 0, #3882f6;
+    background-color: #f8f8fa;
+    color: #3882f6;
+
+}
+
+.container-bottom {
+    display: flex;
+    flex-direction: column;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    margin: 50px;
+    padding: 24px;
+    padding-left: 36px;
+}
+
+h4 {
+    font-size: 24px;
+}
