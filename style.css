@@ -14,12 +14,18 @@ body {
     background-color: #1f2937;
     align-items: center;
     justify-content: space-evenly;
-    gap: 32px;
 }
 
 .head {
     display: flex;
-    margin-left: 50px;
+    margin-right: 200px;
+}
+
+.head-right {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    padding: 12px;
 }
 
 .container-top {
@@ -38,9 +44,9 @@ body {
 }
 
 .dog {
-    max-width: 500px;
-    max-height: 200px;
-    margin-left: 100px;
+    width: 400px;
+    height: 250px;
+    margin: 50px;
 }
 
 .but1 {
@@ -59,6 +65,7 @@ body {
   gap: 8px;
 }
 
+
 .container-mid {
     display: flex;
     justify-content: center;
@@ -67,18 +74,42 @@ body {
     padding: 32px;
 }
 
-.info {
+.image {
     display: flex;
-    width: 70px;
-    height: 70px;
-    padding: 12px;
+    width: 150px;
+    height: 150px;
 }
 
 .text {
     display: flex;
-    font-size: 24px;
+    font-size: 20px;
     flex-wrap: wrap;
 }
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.box4 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
 
 h1 {
     display: flex;
@@ -115,6 +146,7 @@ h3 {
     font-weight: 900;
     justify-content: flex-end;
     align-content: flex-end;
+    width: 900px;
 }
 
 .top {
@@ -140,13 +172,26 @@ h3 {
 
 .container-bottom {
     display: flex;
-    flex-direction: column;
     background-color: #3882f6;
     color: #e5e7eb;
     margin: 50px;
     padding: 24px;
     padding-left: 36px;
     gap: 16px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.box5 {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
 }
 
 h4 {
